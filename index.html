@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Indie+Flower&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Dungeons&Dragons</title>
+</head>
+<body>
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="img/cenario-passo0.jpg" alt="Inicio da Dungeon">
+        <p>Você e seus amigos estavam bebendo numa taverna, quando perceberam que no quadro de avisos algum nobre estava dando uma recompensa gorda para o grupo de aventureiros que derrotassem o Lich de uma masmorra. Vocês, como bravos aventureiros, resolvem se aventurar em busca da glória!</p>
+            <button class="btn-entrar" data-proximo="1"> Entrar na dungeon!</button>
+    </div>
+    <div class="passo" id="passo-1">
+        <p>Vocês entram na dungeon, sentindo o ar frio fazer seus cabelos voarem. Então vocês se deparam com uma bifurcação, e para onde devem ir: esquerda ou direita?</p>
+            <button class="btn-entrar" data-proximo="2">Direita</button>
+            <button class="btn-entrar" data-proximo="3">Esquerda</button>
+    </div>
+    <div class="passo" id="passo-2">
+        <p>Vocês encontram o tão temido Lich! Com sua capa surrada e seus olhos craquelando, ele parecia ser tão velho quanto o próprio tempo. Ele encara vocês, com seus olhos vazios, e por um momento vocês sentem medo, mas logo empunham suas armas, prontos para o feroz combate.</p>
+        <button class="btn-entrar" data-proximo="4">Acabar com ele!</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Vocês lutam contra um pequeno grupo de slimes, e se encontram num beco sem saída. Vocês recolhem os recursos conseguidos e voltam em direção ao outro caminho.</p>
+        <button class="btn-entrar" data-proximo="2">Voltar e ir para a direita</button>
+    </div>
+    <div class="passo" id="passo-4">
+        <img src="img/cenario-passo4.jpg" alt="Moedas de Ouro">
+        <p>Parabéns! Vocês conseguiram derrotar o Lich e, levando sua cabeça de ossos de volta para a vila e entregando para o taverneiro, ele lhes recompensou com um bocado de moedas de ouro, e seus nomes entraram para a história dos heróis. Aproveite a glória!</p>
+    </div>
+
+</main>
+
+<script src="script.js"></script>
+
+
+    
+</body>
+</html>
